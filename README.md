@@ -9,7 +9,7 @@ Note: If you attended both our Git workshop and our Coding 101 workshop and comp
 
 - [Visual Studio Code](https://code.visualstudio.com/): A text editor which we will be writing our code in.
 - [Node.js](https://nodejs.org/en/): Used to run our javascript code.
-- [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+- [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git): You will be using this to clone this repository
 
 After installing the software above, you'll need to complete the steps shown in this video: Link TBA
 
