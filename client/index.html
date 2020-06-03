@@ -1,9 +1,40 @@
 <!-- THIS IS WHERE WE WILL WRITE OUR MARKUP -->
 <!DOCTYPE html>
-    <head>
-        <title>Our Recipe App!</title>
-    </head>
-    <body>
-        
-    </body>
+
+<head>
+    <title>Our Recipe App!</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div id="main-page">
+        <h1 id="title">Our Awesome Recipe App!</h1>
+
+        <div id="inputs-div">
+            <div id="add-recipes-div">
+                <p>Recipe name:</p>
+                <input type="text" id="recipe-name">
+                <p>Recipe content:</p>
+                <textarea id="recipe-content" type="text"></textarea>
+                <div id="buttons">
+                    <button id="submit-recipe">Submit</button>
+                    <button id="refresh-recipes">Refresh Recipes</button>
+                </div>
+            </div>
+
+            <div id="delete-recipes-div">
+                <p>Recipe id to delete:</p>
+                <input type="text" id="recipe-id-to-delete">
+                <div id="buttons">
+                    <button id="delete-recipe">Delete</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="recipes-div"></div>
+
+    <script src="index.js"></script>
+</body>
+
 </html>
